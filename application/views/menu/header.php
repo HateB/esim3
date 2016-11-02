@@ -6,6 +6,10 @@
 <body>
 
 <ul>
-	<li><a href="<?php site_url('asiakas/listaa'); ?>">Asiakkaat</a></li>
-	<li><a href="<?php site_url('asiakas_lisaa'); ?>">Lisää asiakas</a></li>
+	<li><a href="<?php echo site_url('Etusivu'); ?>">Etusivu</a></li>
+	<li><a href="<?php echo site_url('asiakas/listaa'); ?>">Asiakkaat</a></li>
+	<li><a href="<?php echo site_url('tilaus/listaa'); ?>">Tilaukset</a></li>
+	<li><a href="<?php echo site_url('asiakas/etsi_tilaus'); ?>">Etsi tilaus</a></li>
+	<li><a href="<?php echo site_url('asiakas/lisaa'); ?>">Lisää asiakas</a></li>
+	<li><a href="<?php echo site_url('asiakas/nayta_poistettavat'); ?>">Poista asiakas</a></li>
 </ul>
